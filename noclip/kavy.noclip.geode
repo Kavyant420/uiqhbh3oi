@@ -1,0 +1,29 @@
+{
+  "geode": "5.11.2",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081",
+    "mac": "2.2081",
+    "ios": "2.2081"
+  },
+  "id": "kavy.noclip",
+  "name": "Noclip",
+  "version": "v1.0.0",
+  "developer": "kavy",
+  "description": "Toggleable noclip. Press 6 (rebindable) to turn it on or off.",
+  "settings": {
+    "enabled": {
+      "type": "bool",
+      "name": "Noclip",
+      "description": "Turn noclip on or off. You can also use the toggle keybind.",
+      "default": false
+    },
+    "toggle-keybind": {
+      "type": "keybind",
+      "name": "Toggle Noclip",
+      "description": "Key that turns noclip on or off.",
+      "default": "Six",
+      "category": "universal"
+    }
+  }
+}
